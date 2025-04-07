@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "modelo_operaciones_pago"
+version = "0.0.1"
+description = "Modelo de pronostico a un mes si un cliente aceptara o no una de sus opciones de pago."
+authors = [
+  { name = "Laura Sanchez Giraldo" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "==3.13.2"
+
+
+[tool.ruff]
+line-length = 99
+src = ["modelo_operaciones_pago"]
+include = ["pyproject.toml", "modelo_operaciones_pago/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["modelo_operaciones_pago"]
+force-sort-within-sections = true
+
