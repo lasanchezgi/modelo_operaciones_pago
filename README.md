@@ -133,6 +133,4 @@ Versiones clave:
 
 [Laura Sánchez Giraldo](mailto:laurasanchezgiraldo@outlook.es)  
 
-Este proyecto fue desarrollado como parte de una prueba técnica para **Bancolombia**, destacando una solución sólida, transparente y modular.  
-
-> Con ayuda de GitHub Copilot, ChatGPT, Claude y Gemini, como copilotos técnicos en todo el camino 🚀
+Este proyecto fue desarrollado como parte de una prueba técnica para **Bancolombia**, destacando una solución sólida, transparente y modular.
